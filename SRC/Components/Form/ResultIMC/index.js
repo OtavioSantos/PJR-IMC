@@ -1,10 +1,11 @@
 import React from "react";
 import { View,Text } from "react-native";
 
-export default function ResultIMC(props){
+
+export default function ResultImc(props){
     return(
     <View>
-        <Text>{props.massageResultImc}</Text>
+        <Text>{props.messageResultImc}</Text>
         <Text>{props.ResultImc}</Text>
     </View>
     );
